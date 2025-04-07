@@ -1,0 +1,67 @@
+html, body, #home {
+	
+	overflow-x: hidden;
+}
+
+body {
+	background: url(../imagens/capa.png),
+				url(../imagens/ruido.png),
+				linear-gradient(50deg,#2e786a,#ff4169);
+	background-attachment: fixed;
+    display: grid;
+    place-items: center;
+}
+
+.titulo{
+    color: #9bf0e1;
+}
+
+.ajuda{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.btn_acesso{
+    width: 100%;
+    background-color: #2e786a;
+}
+
+.ajuda p{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav__item{
+    color: white;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+form{
+    margin-top: 100px;
+}
+
+
